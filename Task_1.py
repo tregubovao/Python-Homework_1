@@ -9,9 +9,8 @@ print("Введите число, соответствующее дню неде
 day_number = int (input())
 if (day_number == 6 or day_number == 7): 
     print("Ура, это выходной день!!!")
-else:    
-    if (day_number == 1 or day_number == 2 or day_number == 3 or day_number == 4 or day_number == 5):
-        print("Увы, это - рабочий день...")
-    else:
-        print("Введенное число НЕ соответствует не одному дню недели!")
+elif (day_number == 1 or day_number == 2 or day_number == 3 or day_number == 4 or day_number == 5):
+    print("Увы, это - рабочий день...")
+else:
+    print("Введенное число не соответствует не одному дню недели!")
             
