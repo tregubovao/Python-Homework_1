@@ -14,4 +14,4 @@ b_x = float (input())
 print("Введите координату y точки B: ")
 b_y = float (input())
 import math
-print("Расстояние между точками A и B составляет:", round((math.sqrt((a_x - b_x) ** 2 + (a_y - b_y) ** 2)), 3))
+print("Расстояние между точками A и B составляет:", round((math.sqrt((a_x - b_x) ** 2 + (a_y - b_y) ** 2)), 2))
